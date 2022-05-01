@@ -11,7 +11,7 @@ def message_now_whatsys(name_tel: str, message: str, time_start: int, time_s: in
 
     a = input('номер телефона или контакт из списка : ')
     b = input('сообщение: ')
-    vkl.message_now_whatsys(a, b, 15, 3)
+    vcl.message_now_whatsys(a, b, 15, 3)
 
     открывает установленный на компьютере whatsapp и отправляет сообщение по номеру телефона
     или контакт из списка. функция принимает 4 параметра: 1 номер телефона(или контакт из списка),
